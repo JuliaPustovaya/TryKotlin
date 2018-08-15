@@ -30,11 +30,20 @@ fun main(args: Array<String>) {
 //    var b1: Long = a2.toLong()
 //    var c1: Char = '4'
 //    var bool: Boolean =true
-    myFisrtFunction()
-    myFun2(5)
-    myFun3()
-    val result = myFun4(5, 2.7)
-    println(result)
+//    myFisrtFunction()
+//    myFun2(5)
+//    myFun3()
+//    val result = myFun4(5, 2.7)
+//    println(result)
+
+    val st: String = "hello"
+    val size = st.length
+    print(size)
+
+    val st1: String?
+    st1 = getStNull()
+    val size1 = st1!!.length
+    println(size)    //будет ошибка, но котлин обезопасил нас от null
 
 
 }
@@ -52,3 +61,10 @@ fun myFun3() {
 
 fun myFun4(a: Long, b: Double) = a + b
 
+fun getSt(): String {
+    return "koko"
+}
+
+fun getStNull(): String? {
+    return null
+}
