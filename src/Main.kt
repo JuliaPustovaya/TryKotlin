@@ -36,14 +36,14 @@ fun main(args: Array<String>) {
 //    val result = myFun4(5, 2.7)
 //    println(result)
 
-    val st: String = "hello"
-    val size = st.length
-    print(size)
-
-    val st1: String?
-    st1 = getStNull()
-    val size1 = st1!!.length
-    println(size)    //будет ошибка, но котлин обезопасил нас от null
+//    val st: String = "hello"
+//    val size = st.length
+//    print(size)
+//
+//    val st1: String?
+//    st1 = getStNull()
+//    val size1 = st1!!.length
+//    println(size)    //будет ошибка, но котлин обезопасил нас от null
 
 
 }
